@@ -1,0 +1,12 @@
+.clients {
+    width: 100%;
+}
+.clients__inner {
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+}
+.clients__inner img {
+    margin: 50px;
+}

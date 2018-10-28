@@ -1,0 +1,19 @@
+.nav {
+    width: auto;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav__item {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    margin-left: 25px;
+}
+div.nav__item > a:hover {
+    color: #10c9c3;
+    cursor: pointer;
+}

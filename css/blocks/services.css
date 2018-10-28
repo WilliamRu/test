@@ -1,0 +1,33 @@
+.services {
+    width: 100%;
+}
+
+.services__inner {
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 60px;
+}
+.services__item {
+    flex-grow: 2;
+    flex-basis: 15%;
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 40px;
+
+    text-align: center;
+}
+.services__img {
+    margin-bottom: 30px;
+}

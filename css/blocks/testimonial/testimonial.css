@@ -1,0 +1,17 @@
+@import url(slider.css);
+
+.testimonial {
+    width: 100%;
+    background-color: #10c9c3;
+}
+.testimonial__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.testimonial__text {
+    margin: 200px;
+    text-align: center;
+}

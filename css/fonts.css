@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+body {
+    font-family: "Montserrat", sans-serif;
+}
+p {
+    font-family: "NunitoSans", sans-serif;
+}
+
+.font-h-black-gray {
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(29, 29, 29);
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.font-p-gray {
+    font-size: 16px;
+    color: rgb(120, 120, 120);
+    text-decoration: none;
+    text-decoration: none;
+}
+.font-p-white-large  {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.font-caps-black {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.font-caps-white {
+    font-size: 12px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.font-caps-gray {
+    font-size: 12px;
+    font-weight: 900;
+    color: rgb(142, 142, 142);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.font-footer {
+    font-size: 15px;
+    font-family: "NunitoSans", sans-serif;
+    color: rgb(188, 188, 188);
+    text-decoration: none;
+
+}
+.f-banner{
+    font-size: 18px;
+    color: rgb(120, 120, 120);
+    line-height: 1.5;
+    text-decoration: none;
+}
+

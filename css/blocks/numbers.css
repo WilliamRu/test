@@ -1,0 +1,33 @@
+.numbers {
+    padding: 60px 0;
+}
+
+.numbers__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.numbers__item {
+    box-sizing: content-box;
+
+    display: flex;
+    align-items: center;
+}
+.numbers__item img {
+    float: left;
+    padding-right: 20px;
+}
+
+.numbers__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.numbers__text span:nth-child(1) {
+    font-size: 14pt;
+    padding-bottom: 6px;
+}
+.numbers__text span:nth-child(2) {
+     padding-top: 5px;
+ }

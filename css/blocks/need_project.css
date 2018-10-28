@@ -1,0 +1,63 @@
+.project {
+    width: 100%;
+}
+.project__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project__text {
+    width: 50%;
+    text-align: center;
+}
+
+.project-form {
+    width: 50%;
+
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.project-form__input {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 30px;
+
+    border: 15px solid white;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    outline: none;
+}
+.input-name {
+    flex-basis: 42.5%;
+
+}
+.input-mail {
+    flex-basis: 42.5%;
+}
+.input-title {
+
+}
+.textarea-comment {
+    height: 200px;
+}
+.project-form__button {
+    height: 50px;
+
+    flex-basis: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    border: none;
+}

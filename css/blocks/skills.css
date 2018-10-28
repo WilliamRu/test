@@ -1,0 +1,47 @@
+.skills {
+    display: flex;
+}
+.skills__inner{
+    flex: 1 1 50%;
+}
+
+.skills__ability {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 150px 100px;
+}
+.ability__level {
+    width: 100%;
+    height: 3px;
+    background-color: #e9e9e9;
+    margin-bottom: 30px;
+}
+.ability__level-design {
+    width: 75%;
+    height: 100%;
+    background-color: #10c9c3;
+}
+.ability__level-web_development {
+    width: 90%;
+    height: 100%;
+    background-color: #10c9c3;
+}
+.ability__level-marketing {
+    width: 65%;
+    height: 100%;
+    background-color: #10c9c3;
+}
+
+.skills__image {
+    background-color: #e9e9e9;
+}
+.skills__image img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 1000px) {
+    .skills__ability {
+        padding: 100px 10px;
+    }
+}

@@ -1,0 +1,19 @@
+.footer {
+    width: 100%;
+}
+.footer__inner {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__item {
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__item:nth-child(1) {
+    flex: 4;
+}
+.footer__item:nth-child(2) {
+    flex: 4;
+}
